@@ -1,8 +1,8 @@
 
 
-const FundsAddress = () => {
+const FundsAddress = ({stepBack, stepForward, handleChanege, input_vals}) => {
     return (
-        <div></div>
+        <div>Hello funds address</div>
     )
 }
 

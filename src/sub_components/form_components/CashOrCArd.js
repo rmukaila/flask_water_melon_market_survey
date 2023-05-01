@@ -2,8 +2,8 @@
 
 const CashOrCard = ({stepBack, stepForward, handleChanege, input_vals}) => {
     return (
-        <div></div>
+        <div>Hello .... cash or card</div>
     )
 }
 
-export default cashOrCard
+export default CashOrCard

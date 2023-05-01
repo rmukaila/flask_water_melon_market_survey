@@ -2,7 +2,7 @@
 
 const GiftCardNumber = ({stepBack, stepForward, handleChanege, input_vals}) => {
     return (
-        <div></div>
+        <div>Hello gift card number</div>
     )
 }
 

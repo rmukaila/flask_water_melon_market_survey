@@ -2,7 +2,9 @@
 
 const BalanceLeft = ({stepBack, stepForward, handleChanege, input_vals}) => {
     return (
-        <div></div>
+        <div>
+            Hello...Balance
+        </div>
     )
 }
 

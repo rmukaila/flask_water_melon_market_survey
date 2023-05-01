@@ -2,7 +2,7 @@
 
 const SellingPrice = ({stepBack, stepForward, handleChanege, input_vals}) => {
     return (
-        <div></div>
+        <div>Hello selling price</div>
     )
 }
 

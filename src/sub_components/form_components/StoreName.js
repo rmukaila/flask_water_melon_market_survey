@@ -2,7 +2,7 @@
 
 const StoreName = ({stepForward, handleChanege, input_vals}) => {
     return (
-        <div></div>
+        <div>Hello store name</div>
     )
 }
 

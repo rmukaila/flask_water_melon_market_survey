@@ -3,7 +3,7 @@
 
 const EmailAddress = ({stepBack, handleChanege, input_vals}) => {
     return (
-        <div></div>
+        <div>Hello..email address</div>
     )
 }
 

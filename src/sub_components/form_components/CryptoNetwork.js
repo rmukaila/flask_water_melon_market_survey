@@ -1,9 +1,9 @@
 
 
 
-const CryptoNetwork = () => {
+const CryptoNetwork = ({stepBack, stepForward, handleChanege, input_vals}) => {
     return (
-        <div></div>
+        <div>Hello Crypto Network</div>
     )
 }
 

@@ -4,6 +4,10 @@ import CryptoNetwork from "./CryptoNetwork";
 import FundsAddress from "./FundsAddress";
 import EmailAddress from "./EmailAddress";
 import ThankYou from "./ThankYou";
+import SellingPrice  from "./SellingPrice";
+import StoreName from "./StoreName";
+import CashOrCard from "./CashOrCard";
+import GiftCardPin from "./GiftCardPin";
 
 export default class FormParent extends Component{
 
@@ -41,13 +45,13 @@ export default class FormParent extends Component{
     render(){
         const { step } = this.state;
         const { storeName, balance, sellingPrice, cryptoNetwork, fundsAddress, cashOrCard, giftCardNumber, giftCardPin} = this.state
-        input_vals = { storeName, balance, sellingPrice, cryptoNetwork, fundsAddress, cashOrCard, giftCardNumber, giftCardPin}
+        const input_vals = { storeName, balance, sellingPrice, cryptoNetwork, fundsAddress, cashOrCard, giftCardNumber, giftCardPin}
 
 
         switch (step) {
             case 1: 
               return (
-                <storeName />
+                <StoreName />
               )
             case 2: 
               return (
@@ -55,7 +59,7 @@ export default class FormParent extends Component{
               )
             case 3: 
               return (
-                <sellingPrice />
+                <SellingPrice />
               )
             case 4:
               return (
@@ -75,7 +79,7 @@ export default class FormParent extends Component{
               )
             case 8:
               return (
-                <giftCardPin />
+                <GiftCardPin />
               )
               case 9: 
               return (
