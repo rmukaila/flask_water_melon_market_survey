@@ -1,6 +1,6 @@
 
 
-const BalanceLeft = () => {
+const BalanceLeft = ({stepBack, stepForward, handleChanege, input_vals}) => {
     return (
         <div></div>
     )
